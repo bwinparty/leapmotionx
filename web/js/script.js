@@ -7,7 +7,7 @@ $(function() {
 
     subscription.init = function() {
         if (subscription.sock === null && subscription.connected === false) {
-            subscription.sock = new SockJS("http://10.80.8.19/leap/stream");
+            subscription.sock = new SockJS("http://127.0.0.1:8080/stream");
             subscription.sock.onopen = function() {
                 subscription.connected = true;
                 console.log('open');
@@ -18,7 +18,7 @@ $(function() {
                 //console.log('message', e.data);
                 obj = JSON.parse(e.data);
                 frame = new Leap.Frame(obj);
-                chatlog(e.data);
+                //chatlog(e.data);
                 $('#hands').text(frame.hands.length);
                 $('#fingers').text(frame.pointables.length);
             };
