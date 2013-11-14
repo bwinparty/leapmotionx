@@ -1,3 +1,10 @@
+/*
+ * leapmotionx - Leap Motion Prototype
+ * 
+ * Copyright 2013   bwin.party digital entertainment plc
+ *                  http://www.bwinparty.com
+ * Developer: Lukas Prettenthaler
+ */
 package com.bwinparty.leapmotion.handler;
 
 import com.bwinparty.leapmotion.service.VertX;
@@ -8,7 +15,7 @@ import org.vertx.java.core.http.WebSocket;
 
 /**
  *
- * @author zyclonite
+ * @author Lukas Prettenthaler
  */
 public class LeapHandler implements Handler<WebSocket> {
 

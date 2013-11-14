@@ -1,6 +1,9 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * leapmotionx - Leap Motion Prototype
+ * 
+ * Copyright 2013   bwin.party digital entertainment plc
+ *                  http://www.bwinparty.com
+ * Developer: Lukas Prettenthaler
  */
 package com.bwinparty.leapmotion;
 
@@ -11,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  *
- * @author zyclonite
+ * @author Lukas Prettenthaler
  */
 public class Leapmotion {
     
